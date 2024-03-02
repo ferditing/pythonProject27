@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: block;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999; /* Ensure header is on top */
+        }
+        nav {
+            background-color:green;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+
+            background-color: #ddd;
+        }
+        section {
+            padding: 20px;
+            margin-top: 150px; /* Adjust for header and navigation */
+            max-height: fit-content;
+        }
+        #about{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: (2,1fr);
+        }
+        h2 {
+            margin-left: 47%;
+            color: #333;
+        }
+        #home{
+            border: solid blue;
+            border-radius: .5rem;
+            background-image: linear-gradient(green,red);
+            padding-bottom: 20px;
+        }
+        #home h2{
+            margin-left: 47%;
+        }
+        #home .details{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .images{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+        }
+    .images img{
+        padding-top: 20px;
+    }
+    .images figcaption{
+        color: aqua;
+    }
+    #gallery{
+        margin-top: 0;
+        border: solid salmon;
+        background-image: linear-gradient(green,red);
+    }
+    #menu{
+        margin-top: 0;
+    }
+    #menu .images ul{
+        list-style-type: none;
+    }
+    #menu .images ul li img{
+        padding-top: 50px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <div class="details">
+        <div class="welcomeMesagge">
+        <p>Welcome to my Technology , Nature and Food stuff website webite. <br>
+        My name is Ferinand Tingisha a Software Development Student at <b>Power Learn Project</b>
+    <br>Class of 2024</p>
+    <p>I Am also a dedicated nature love <u><b><i>Welcome and lets take a trip down Nature, Technology And Food road</i></b></u></p>
+</div>
+<div class="image">
+   <a href="https://media.istockphoto.com/id/1669453534/photo/3d-render-cloud-computing-circuit-board-background.webp?b=1&s=170667a&w=0&k=20&c=6HOp923EltMS7cGKWbf5MsWVTt4osvs8kNqo5MZkMEg=">
+    <img src="c:\Users\PC\Downloads\tech1.jpg" alt="a picture tech reated that could make a good background">Technology Image</a>
+</div>
+</div>
+    </section>
+    <section id="gallery">
+        <h2>GALLERY</h2>
+        <p style="margin-left: 44%;"><b>Lets Take A Trip Down Nature Road </b></p>
+        <div class="images">
+            <div class="nature1">
+        <a href="https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg
+        "><img src="c:\Users\PC\Downloads\nature1.jpg" alt="" style="width: 95%; height: 300px;">Butterflies</a>
+        <figcaption>Butterflies Makes the view beautuful</figcaption></div>
+        <div class="nature2">
+        <a href="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80
+        "><img src="c:\Users\PC\Downloads\nature2.jpg" alt="" style="width: 95%; height: 300px;">Flowers</a>
+        <figcaption>Flowers used to show love and tell people goodbye</figcaption></div>
+        <div class="nature3">
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsfagZWQ-bEQ1MiTuMz32WEOfatpbsOY3CRbgy4unXew&s
+        "><img src="c:\Users\PC\Downloads\nature4.jpg" alt="" style="width: 95%; height: 300px;" >forest</a>
+        <figcaption>Worls Map Forest During Summer</figcaption></div>
+        <div class="nature4">
+        <a href="https://media.istockphoto.com/id/499661518/photo/tendril.webp?b=1&s=612x612&w=0&k=20&c=1--DjECpNVxhEl3WPwquZdNVHrM3gcTWb-wNCcm85Mk=
+        "><img src="c:\Users\PC\Downloads\nature5.jpg" alt="" style="width: 95%; height: 300px;">forest</a>
+        <figcaption>Worls Map Forest During Winter</figcaption></div>
+    </div>
+    </section>
+    <section id="menu">
+        <h2>MENU</h2>
+        <div class="images"></div>
+       <ul>
+        <div class="menu1">
+        <li><a href="https://e7.pngegg.com/pngimages/424/789/png-clipart-hamburger-junk-food-fast-food-hamburger-french-fries-pizza-junk-food-s-food-recipe-thumbnail.png">
+            <img src="c:\Users\PC\Downloads\ff1.png" alt="" style="width: 50%;height: 400px;">Bugger</a></li></div>
+            <div class="menu2">
+        <li><a href="https://e7.pngegg.com/pngimages/692/99/png-clipart-hamburger-street-food-seafood-fast-food-delicious-food-salmon-with-vegetables-salad-in-plate-leaf-vegetable-food-thumbnail.png">
+            <img src="c:\Users\PC\Downloads\ff2.png" alt="" style="width: 50%;height: 400px;">Humbugger</a></li></div>
+            <div class="menu3">
+        <li><a href="https://e7.pngegg.com/pngimages/870/155/png-clipart-junk-food-kosher-foods-pizza-fast-food-samosa-junk-food-food-recipe-thumbnail.png">
+            <img src="c:\Users\PC\Downloads\ff3.png" alt="" style="width: 50%;height: 400px;">Pitzza</a></li></div>
+            <div class="menu4">
+        <li><a href="https://e7.pngegg.com/pngimages/269/559/png-clipart-fast-food-organic-food-vegetarian-cuisine-junk-food-junk-food-natural-foods-food-thumbnail.png">
+            <img src="c:\Users\PC\Downloads\ff4.png" alt="" style="width: 50%;height: 400px;">Vegeterian Quisine</a></li></div>
+            <div class="menu5">
+        <li><a href="https://e7.pngegg.com/pngimages/833/121/png-clipart-food-food-steak-thumbnail.png">
+        <img src="c:\Users\PC\Downloads\ff5.png" alt="" style="width: 50%;height: 400px;">Steak Chips</a></li></div>
+       </ul>
+    </div>
+    </section>
+</body>
+</html>
